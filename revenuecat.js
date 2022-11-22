@@ -5,7 +5,9 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const list = {
 	'VSCO': { name: 'membership', id: 'com.circles.fin.premium.yearly' },
 	'1Blocker': { name: 'premium', id: 'blocker.ios.subscription.yearly' },
-	'Anybox': { name: 'pro', id: 'cc.anybox.Anybox.annual' }
+	'Anybox': { name: 'pro', id: 'cc.anybox.Anybox.annual' },
+	'Fileball': { name: 'filebox_pro', id: 'com.premium.yearly' },
+	'ipTV': { name: 'ipTV +', id: 'iptv_9.99_1y_7d_free' }
 };
 const data = {
 	"expires_date": "2099-02-18T07:52:54Z",
